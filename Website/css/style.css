@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	margin:0;
+	background-image: url("../img/background.png");
+	background-position: center;
+	background-attachment: fixed;
+
+}
+.main-wrapper {
+	width:100%;
+	height:auto;
+}
+.main-page-container {
+	padding-top: 10px;
+	text-align: center;
+	width:25%;
+	height:40vh;
+	position: relative;
+	top:30vh;
+	margin:auto;
+}
+.welcome-text {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: auto;
+}
+.create-button {
+	font-family: 'Noto Sans', sans-serif;
+	width:200px;
+	height:50px;
+	margin:auto;
+	font-size: 20px;
+	line-height: 45px;
+	border:solid 1px black;
+	cursor: pointer;
+	transition-duration: 0.24s;
+	position: relative;
+	top:40px;
+}
+.create-button:hover {
+	background-color: black;
+	color: white;
+}
